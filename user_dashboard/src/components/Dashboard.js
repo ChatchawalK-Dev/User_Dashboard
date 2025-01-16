@@ -10,9 +10,9 @@ const Dashboard = ({ user }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const SHEET_ID = "1G3YOWeTKl2zmBFZb98NbEn2WpJIaUW9Awd-BS8CTcjk"; 
-  const API_KEY = "AIzaSyDtPgHOeenzXBI4QCpZ703gn4H0Xb-haGM";
-  const CLIENT_ID = "998493125410-idld22gb9kbodgstq6odvbp76ighcs0h.apps.googleusercontent.com"; 
+  const SHEET_ID = ""; 
+  const API_KEY = "";
+  const CLIENT_ID = ""; 
   const SCOPES = "https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive";
 
   // Fetch data from Google Sheets

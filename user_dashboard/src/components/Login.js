@@ -1,6 +1,6 @@
 import { gapi } from "gapi-script";
 
-const CLIENT_ID = "998493125410-idld22gb9kbodgstq6odvbp76ighcs0h.apps.googleusercontent.com";
+const CLIENT_ID = "";
 
 const Login = ({ onLoginSuccess }) => {
   const handleLogin = () => {
